@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+  my_app1:
+    image: basic-docker-project1:latest
+    ports:
+      - "8000:8000"
